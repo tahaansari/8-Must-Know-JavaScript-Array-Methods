@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Must Know JavaScript Array Methods</title>
+</head>
+<body>
+    <script>
+        const items=[
+            {name:'bike', price:100},
+            {name:'tv', price:200},
+            {name:'album', price:10},
+            {name:'book', price:50},
+            {name:'phone', price:500},
+            {name:'computer', price:1000},
+            {name:'keyboard', price:250},
+        ]
+
+        // const filterItem = items.filter((item)=>{
+        //     if(item.price>100){
+        //         return item.name
+        //     }
+        // })
+        // console.log(filterItem)
+
+        // const mapItem = items.map((item)=>{
+        //     return item.name;
+        // })
+        // console.log(mapItem)
+
+        // const findItem = items.find((item)=>{
+        //     return item.name === "bike";
+        // })
+        // console.log(findItem)
+
+        items.forEach(item => {
+            console.log(item.name)
+        });
+        
+        
+
+    </script>
+</body>
+</html>
